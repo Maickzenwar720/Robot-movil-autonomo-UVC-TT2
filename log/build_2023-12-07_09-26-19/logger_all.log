@@ -1,0 +1,248 @@
+[0.388s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.388s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbd684cf3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbd68c6e5c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbd68c6e5c0>>)
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.430s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alejandro/diff_ws'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_pkg) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_pkg' with type 'ros.ament_cmake' and name 'diff_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_waypoints' with type 'ros.ament_python' and name 'follow_waypoints'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interface) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interface' with type 'ros.ament_python' and name 'robot_interface'
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.473s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/humble
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'cmake_target' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'diff_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.528s] DEBUG:colcon.colcon_core.verb:Building package 'diff_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/diff_ws/build/diff_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/diff_ws/install/diff_pkg', 'merge_install': False, 'path': '/home/alejandro/diff_ws/src/diff_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'follow_waypoints' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/diff_ws/build/follow_waypoints', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/diff_ws/install/follow_waypoints', 'merge_install': False, 'path': '/home/alejandro/diff_ws/src/follow_waypoints', 'symlink_install': True, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/diff_ws/build/robot_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/diff_ws/install/robot_interface', 'merge_install': False, 'path': '/home/alejandro/diff_ws/src/robot_interface', 'symlink_install': True, 'test_result_base': None}
+[0.530s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.533s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alejandro/diff_ws/src/diff_pkg' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alejandro/diff_ws/src/diff_pkg'
+[0.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alejandro/diff_ws/src/follow_waypoints' with build type 'ament_python'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'ament_prefix_path')
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.sh'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alejandro/diff_ws/src/robot_interface' with build type 'ament_python'
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interface', 'ament_prefix_path')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/hook/ament_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/hook/ament_prefix_path.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/hook/ament_prefix_path.sh'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alejandro/diff_ws/build/diff_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alejandro/diff_ws/src/diff_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/diff_ws/install/diff_pkg
+[0.764s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alejandro/diff_ws/src/follow_waypoints'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alejandro/diff_ws/src/robot_interface'
+[0.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alejandro/diff_ws/build/diff_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alejandro/diff_ws/src/diff_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/diff_ws/install/diff_pkg
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alejandro/diff_ws/build/diff_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alejandro/diff_ws/build/diff_pkg -- -j12 -l12
+[1.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alejandro/diff_ws/build/diff_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alejandro/diff_ws/build/diff_pkg -- -j12 -l12
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alejandro/diff_ws/build/robot_interface': PYTHONPATH=/home/alejandro/diff_ws/build/robot_interface/prefix_override:/home/alejandro/diff_ws/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alejandro/diff_ws/build/robot_interface/build --no-deps install_data
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alejandro/diff_ws/build/follow_waypoints': PYTHONPATH=/home/alejandro/diff_ws/build/follow_waypoints/prefix_override:/home/alejandro/diff_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alejandro/diff_ws/build/follow_waypoints/build --no-deps install_data
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alejandro/diff_ws/build/diff_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alejandro/diff_ws/build/diff_pkg
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interface', 'pythonpath_develop')
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/build/robot_interface/share/robot_interface/hook/pythonpath_develop.ps1'
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alejandro/diff_ws/build/robot_interface' returned '0': PYTHONPATH=/home/alejandro/diff_ws/build/robot_interface/prefix_override:/home/alejandro/diff_ws/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alejandro/diff_ws/build/robot_interface/build --no-deps install_data
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/build/robot_interface/share/robot_interface/hook/pythonpath_develop.dsv'
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/build/robot_interface/share/robot_interface/hook/pythonpath_develop.sh'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface' for CMake module files
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface' for CMake config files
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface/lib'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface/bin'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface/lib/pkgconfig/robot_interface.pc'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface/lib/python3.10/site-packages'
+[1.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interface', 'pythonpath')
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/hook/pythonpath.ps1'
+[1.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/hook/pythonpath.dsv'
+[1.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/hook/pythonpath.sh'
+[1.802s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/robot_interface/bin'
+[1.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interface)
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/package.ps1'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/package.dsv'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/package.sh'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/package.bash'
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/robot_interface/share/robot_interface/package.zsh'
+[1.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alejandro/diff_ws/install/robot_interface/share/colcon-core/packages/robot_interface)
+[1.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath_develop')
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.ps1'
+[1.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alejandro/diff_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/alejandro/diff_ws/build/follow_waypoints/prefix_override:/home/alejandro/diff_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alejandro/diff_ws/build/follow_waypoints/build --no-deps install_data
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.sh'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints' for CMake module files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints' for CMake config files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints/lib'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints/bin'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints/lib/pkgconfig/follow_waypoints.pc'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints/lib/python3.10/site-packages'
+[1.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath')
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.ps1'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.dsv'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.sh'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/follow_waypoints/bin'
+[1.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_waypoints)
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/package.ps1'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/package.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/package.sh'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/package.bash'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints/package.zsh'
+[1.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alejandro/diff_ws/install/follow_waypoints/share/colcon-core/packages/follow_waypoints)
+[2.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_pkg)
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg' for CMake module files
+[2.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alejandro/diff_ws/build/diff_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alejandro/diff_ws/build/diff_pkg
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg' for CMake config files
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_pkg', 'cmake_prefix_path')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/hook/cmake_prefix_path.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/hook/cmake_prefix_path.dsv'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/hook/cmake_prefix_path.sh'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/bin'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/lib/pkgconfig/diff_pkg.pc'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/lib/python3.10/site-packages'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/bin'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.sh'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.zsh'
+[2.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alejandro/diff_ws/install/diff_pkg/share/colcon-core/packages/diff_pkg)
+[2.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_pkg)
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg' for CMake module files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_pkg', 'cmake_prefix_path')
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/hook/cmake_prefix_path.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/hook/cmake_prefix_path.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/hook/cmake_prefix_path.sh'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/bin'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/lib/pkgconfig/diff_pkg.pc'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/lib/python3.10/site-packages'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/alejandro/diff_ws/install/diff_pkg/bin'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.ps1'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.sh'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.bash'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.zsh'
+[2.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alejandro/diff_ws/install/diff_pkg/share/colcon-core/packages/diff_pkg)
+[2.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.110s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.117s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.129s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alejandro/diff_ws/install/local_setup.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alejandro/diff_ws/install/_local_setup_util_ps1.py'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alejandro/diff_ws/install/setup.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alejandro/diff_ws/install/local_setup.sh'
+[2.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alejandro/diff_ws/install/_local_setup_util_sh.py'
+[2.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alejandro/diff_ws/install/setup.sh'
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alejandro/diff_ws/install/local_setup.bash'
+[2.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alejandro/diff_ws/install/setup.bash'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alejandro/diff_ws/install/local_setup.zsh'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alejandro/diff_ws/install/setup.zsh'

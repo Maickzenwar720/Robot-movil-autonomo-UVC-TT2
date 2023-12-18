@@ -1,0 +1,28 @@
+[0.842s] Invoking command in '/home/alejandro/diff_ws/build/follow_waypoints': PYTHONPATH=/home/alejandro/diff_ws/build/follow_waypoints/prefix_override:/home/alejandro/diff_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alejandro/diff_ws/build/follow_waypoints/build --no-deps install_data
+[1.061s] running develop
+[1.063s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.063s]   warnings.warn(
+[1.065s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.065s]   warnings.warn(
+[1.111s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.111s]   warnings.warn(
+[1.196s] running egg_info
+[1.196s] writing follow_waypoints.egg-info/PKG-INFO
+[1.197s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[1.197s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[1.197s] writing requirements to follow_waypoints.egg-info/requires.txt
+[1.197s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[1.199s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.200s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.201s] running build_ext
+[1.201s] Creating /home/alejandro/diff_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.202s] Installing follow_waypoints_exe script to /home/alejandro/diff_ws/install/follow_waypoints/lib/follow_waypoints
+[1.202s] 
+[1.202s] Installed /home/alejandro/diff_ws/build/follow_waypoints
+[1.202s] running install_data
+[1.202s] creating /home/alejandro/diff_ws/install/follow_waypoints/share/ament_index
+[1.202s] creating /home/alejandro/diff_ws/install/follow_waypoints/share/ament_index/resource_index
+[1.203s] creating /home/alejandro/diff_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+[1.203s] copying resource/follow_waypoints -> /home/alejandro/diff_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+[1.203s] copying package.xml -> /home/alejandro/diff_ws/install/follow_waypoints/share/follow_waypoints
+[1.267s] Invoked command in '/home/alejandro/diff_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/alejandro/diff_ws/build/follow_waypoints/prefix_override:/home/alejandro/diff_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alejandro/diff_ws/build/follow_waypoints/build --no-deps install_data

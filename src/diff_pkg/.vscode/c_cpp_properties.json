@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/alejandro/diff_ws/install/serial_motor_demo_msgs/include/**",
+        "/home/alejandro/diff_ws/install/serial/include/**",
+        "/home/alejandro/diff_ws/install/rplidar_ros/include/**",
+        "/home/alejandro/diff_ws/install/gazebo_ros2_control/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/alejandro/diff_ws/src/diffdrive_arduino/include/**",
+        "/home/alejandro/diff_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/**",
+        "/home/alejandro/diff_ws/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

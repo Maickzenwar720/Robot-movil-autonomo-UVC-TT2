@@ -1,0 +1,106 @@
+[0.023s] Invoking command in '/home/alejandro/diff_ws/build/diff_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alejandro/diff_ws/src/diff_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/diff_ws/install/diff_pkg
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.274s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.596s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.651s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.687s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.759s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.773s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.774s] -- Added test 'lint_cmake' to check CMake code style
+[0.775s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.781s] -- Added test 'xmllint' to check XML markup files
+[0.783s] -- Configuring done
+[0.787s] -- Generating done
+[0.788s] -- Build files have been written to: /home/alejandro/diff_ws/build/diff_pkg
+[0.793s] Invoked command in '/home/alejandro/diff_ws/build/diff_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alejandro/diff_ws/src/diff_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/diff_ws/install/diff_pkg
+[0.795s] Invoking command in '/home/alejandro/diff_ws/build/diff_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alejandro/diff_ws/build/diff_pkg -- -j12 -l12
+[0.841s] Invoked command in '/home/alejandro/diff_ws/build/diff_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alejandro/diff_ws/build/diff_pkg -- -j12 -l12
+[0.874s] Invoking command in '/home/alejandro/diff_ws/build/diff_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alejandro/diff_ws/build/diff_pkg
+[0.882s] -- Install configuration: ""
+[0.882s] -- Execute custom install script
+[0.883s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/empty.yaml
+[0.892s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/gaz_ros2_ctl_use_sim.yaml
+[0.902s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/gazebo_params.yaml
+[0.911s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/joystick.yaml
+[0.921s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/keepout_params.yaml
+[0.931s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/keepout_params_sim.yaml
+[0.940s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/mapper_params_online_async.yaml
+[0.948s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/mapper_params_online_async_sim.yaml
+[0.957s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/my_controller.yaml
+[0.965s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/nav2_params.yaml
+[0.974s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/nav2_params_sim.yaml
+[0.982s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/robot_mapping.rviz
+[0.990s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/robot_navigation.rviz
+[0.998s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/config/twist_mux.yaml
+[1.007s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/description/gazebo_control.xacro
+[1.016s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/description/inertial_macros.xacro
+[1.024s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/description/lidar.xacro
+[1.033s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/description/robot.urdf.xacro
+[1.042s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/description/robot_core.xacro
+[1.051s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/description/ros2_control.xacro
+[1.061s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/bringup.launch.py
+[1.070s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/bringup_launch_sim.py
+[1.080s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/costmap_filter_info.launch.py
+[1.090s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/costmap_filter_info_launch_sim.py
+[1.098s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/joystick.launch.py
+[1.107s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/launch_robot.launch.py
+[1.116s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/launch_sim.launch.py
+[1.124s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/localization_launch.py
+[1.133s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/localization_launch_sim.py
+[1.142s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/navigation_launch.py
+[1.151s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/navigation_launch_sim.py
+[1.160s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/online_async_launch.py
+[1.168s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/online_async_launch_sim.py
+[1.176s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/rplidar.launch.py
+[1.185s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/rsp.launch.py
+[1.194s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/rviz.launch.py
+[1.202s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/launch/slam_launch.py
+[1.212s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/audi_map_save.pgm
+[1.223s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/audi_map_save.yaml
+[1.234s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/audi_map_saveo.pgm
+[1.245s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/audi_map_serial.data
+[1.255s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/audi_map_serial.posegraph
+[1.265s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/pesados_keepout_mask.pgm
+[1.276s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/pesados_keepout_mask.yaml
+[1.283s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/pesados_map_save.pgm
+[1.293s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/pesados_map_save.yaml
+[1.302s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/pesados_map_serial.data
+[1.312s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/pesados_map_serial.posegraph
+[1.320s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/salon122_map_save.pgm
+[1.330s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/salon122_map_save.yaml
+[1.338s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/salon122_map_serial.data
+[1.347s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/salon122_map_serial.posegraph
+[1.354s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/sim_keepout_mask.pgm
+[1.362s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/sim_keepout_mask.yaml
+[1.370s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/sim_map_save.pgm
+[1.378s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/sim_map_save.yaml
+[1.387s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/sim_map_serial.data
+[1.394s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/maps/sim_map_serial.posegraph
+[1.402s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/worlds/testing.world
+[1.410s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/ament_index/resource_index/package_run_dependencies/diff_pkg
+[1.419s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/ament_index/resource_index/parent_prefix_path/diff_pkg
+[1.427s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/environment/ament_prefix_path.sh
+[1.435s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/environment/ament_prefix_path.dsv
+[1.442s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/environment/path.sh
+[1.450s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/environment/path.dsv
+[1.459s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/local_setup.bash
+[1.467s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/local_setup.sh
+[1.474s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/local_setup.zsh
+[1.483s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/local_setup.dsv
+[1.492s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.dsv
+[1.501s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/ament_index/resource_index/packages/diff_pkg
+[1.509s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/cmake/diff_pkgConfig.cmake
+[1.518s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/cmake/diff_pkgConfig-version.cmake
+[1.526s] -- Symlinking: /home/alejandro/diff_ws/install/diff_pkg/share/diff_pkg/package.xml
+[1.539s] Invoked command in '/home/alejandro/diff_ws/build/diff_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alejandro/diff_ws/build/diff_pkg

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_interface = robot_interface.robot_interface:main
+

@@ -1,0 +1,9 @@
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/uninstall.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/diff_pkg_uninstall.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/test.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/edit_cache.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/rebuild_cache.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/list_install_components.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/install.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/install/local.dir
+/home/alejandro/diff_ws/build/diff_pkg/CMakeFiles/install/strip.dir

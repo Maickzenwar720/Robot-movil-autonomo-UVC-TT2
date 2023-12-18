@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/alejandro/diff_ws/build/serial_motor_demo",
+        "/home/alejandro/diff_ws/install/serial_motor_demo/lib/python3.8/site-packages",
+        "/home/alejandro/diff_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/alejandro/diff_ws/build/serial_motor_demo",
+        "/home/alejandro/diff_ws/install/serial_motor_demo/lib/python3.8/site-packages",
+        "/home/alejandro/diff_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "ros.distro": "foxy"
+}
